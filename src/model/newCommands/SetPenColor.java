@@ -10,7 +10,7 @@ public class SetPenColor extends Command {
 	@Override
 	public double execute() {
 		pen.setPenColor(myParameters.get(0));
-		return myParameters.get(0);
+		return myParameters.get(3);
 	}
 
 	@Override
