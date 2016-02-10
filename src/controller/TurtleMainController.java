@@ -7,7 +7,7 @@ import ui.TurtleView;
 public class TurtleMainController {
 	private TurtleView view;
 	private TurtleWorld model;
-	public static String hi = "Hello";
+	public static String hi = "Yo";
 	
 	public TurtleMainController() {
 		this.model = new TurtleWorld();
